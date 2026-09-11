@@ -1,18 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wuthering Waves Page</title>
+
+    <!-- CSS SECTION: This colors, stretches, and layers everything -->
+    <style>
+        /* 1. Reset rules: Clears default browser gaps/margins */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* 2. Main screen container: Sets the height to fill 100% of the screen */
+        .hero-container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            font-family: 'Verdana', sans-serif;
+        }
+
+        /* 3. The Video layer: Forces the video to stretch behind the text */
+        .bg-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Keeps characters from stretching weirdly */
+            z-index: -1;       /* Pushes video to the absolute bottom layer */
+        }
+
+        /* 4. The Content layer: Centers text right over the top of the playing video */
+        .hero-content {
+            position: relative;
+            z-index: 1;        /* Pulls text forward so you can read it */
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;      /* Makes text white */
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Styling for your big title text */
+        .hero-content h1 {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        /* Styling for your smaller date description text */
+        .hero-content p {
+            font-size: 1rem;
+            color: #cccccc; /* Off-white color for subheadings */
+            letter-spacing: 1px;
+        }
+    </style>
 </head>
-    <body style="font-family: verdana; color: white; background-color: black;">
+<body>
 
-      <h1>This is a Heading</h1>
+    <!-- HTML SECTION: The actual structural building blocks -->
+    <div class="hero-container">
 
-      <p>very epic website about wuwa
-      <br>
-        wuwa is a very gud game also click on this link 2 go to wuwa official --> <a href="https://wutheringwaves.kurogames.com/en/">WUWA official</a>
+        <!-- Your looping video layer -->
+        <!-- Change "bg.mp4" to match your exact file name if it's different! -->
+        <video autoplay loop muted playsinline class="bg-video">
+            <source src="bg.mp4" type="video/mp4">
+        </video>
 
-      </p>
-      <img src="wuwa.jpg" width="500">
-  
-    </body>
+        <!-- Your text block floating over the video -->
+        <div class="hero-content">
+            <h1>LAMPLIGHT IN MIRAGE,<br>SWORD'S RESOLVE IN HEART</h1>
+            <p>NEW VERSION IS SET TO LAUNCH ON AUGUST 20TH (UTC+8)</p>
+        </div>
+
+    </div>
+
+</body>
 </html>
