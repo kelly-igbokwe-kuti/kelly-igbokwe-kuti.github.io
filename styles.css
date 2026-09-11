@@ -55,3 +55,8 @@
             color: #cccccc; /* Off-white color for subheadings */
             letter-spacing: 1px;
         }
+        .hero-title-img {
+            max-width: 90%;  /* Keeps it from hitting the edges of the phone screen */
+            height: auto;    /* Keeps the shape perfectly proportional */
+        }
+
