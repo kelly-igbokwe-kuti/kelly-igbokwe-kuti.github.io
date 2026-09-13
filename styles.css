@@ -55,7 +55,11 @@
             letter-spacing: 1px;
         }
         .hero-title-img {
-            max-width: 90%;  /* Keeps it from hitting the edges of the phone screen */
+            max-width: 85%;  /* Keeps it from hitting the edges of the phone screen */
             height: auto;    /* Keeps the shape perfectly proportional */
         }
-
+/* 5. Mobile Portrait Support */
+        @media (max-width: 768px) and (orientation: portrait) {
+            .bg-video {
+                object-fit: cover; /* Forces background video to scale beautifully vertically */
+            }
