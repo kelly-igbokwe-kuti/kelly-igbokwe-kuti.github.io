@@ -63,9 +63,5 @@
         .bg-video {
             object-fit: cover; 
         }
-        .hero-title-img {
-            max-width: 85%; 
-            height: auto;
-          }
         }
 
