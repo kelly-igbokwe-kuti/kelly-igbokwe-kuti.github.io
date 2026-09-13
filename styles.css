@@ -23,7 +23,7 @@
             width: 100%;
             height: 100%;
             object-fit: cover; /* Keeps characters from stretching weirdly */
-            z-index: -1;       /* Pushes video to the absolute bottom layer */
+            z-index: -1; /* Pushes video to the absolute bottom layer */
         }
 
         /* 4. The Content layer: Centers text right over the top of the playing video */
@@ -58,8 +58,14 @@
             max-width: 85%;  /* Keeps it from hitting the edges of the phone screen */
             height: auto;    /* Keeps the shape perfectly proportional */
         }
-/* 5. Mobile Portrait Support */
-        @media (max-width: 768px) and (orientation: portrait) {
-            .bg-video {
-                object-fit: cover; /* Forces background video to scale beautifully vertically */
-            }
+       /* 5. Mobile Portrait Support */
+       @media (max-width: 768px) and (orientation: portrait) {
+        .bg-video {
+            object-fit: cover; 
+        }
+        .hero-title-img {
+            max-width: 85%; 
+            height: auto;
+          }
+        }
+
