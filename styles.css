@@ -1,5 +1,12 @@
  <!-- CSS SECTION: This colors, stretches, and layers everything -->
       /* 1. Reset rules: Clears default browser gaps/margins */
+       html, body {
+           margin: 0;
+           padding: 0;
+           width: 100%;
+           height: 100%;
+           overflow: hidden; /* Stops accidental browser scrolling bars */
+        }
         * {
             margin: 0;
             padding: 0;
@@ -9,8 +16,8 @@
         /* 2. Main screen container: Sets the height to fill 100% of the screen */
         .hero-container {
             position: relative;
-            width: 100vw;
-            height: 100vh;
+            width: 100%;
+            height: 100%;
             overflow: hidden;
             font-family: 'Verdana', sans-serif;
         }
@@ -55,6 +62,6 @@
             letter-spacing: 1px;
         }
         .hero-title-img {
-            max-width: 100%;  /* Keeps it from hitting the edges of the phone screen */
+            max-width: 60%;  /* Keeps it from hitting the edges of the phone screen */
             height: auto;    /* Keeps the shape perfectly proportional */
         }
