@@ -63,5 +63,5 @@
         .hero-title-img {
             max-width: 60%;  /* Keeps it from hitting the edges of the phone screen */
             height: auto;    /* Keeps the shape perfectly proportional */
-            top: 20px
+            transform: translateY(60px);
         }
