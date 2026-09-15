@@ -66,7 +66,7 @@
             transform: translateY(40px);
         }
 /* This applies only to computers and larger screens */
-     @media (min-width: 1024px) {
+     @media (min-width: 1100px) {
         .hero-title-img {
             transform: translateY(400px); /* Keeps the image down like that if you are on PC */
     }
