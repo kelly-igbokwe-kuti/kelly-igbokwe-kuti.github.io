@@ -3,4 +3,4 @@ window.addEventListener('DOMContentLoaded', () => {
   setTimeout(() => {
     titleImage.classList.add('active');
   }, 400);
-}
+});
