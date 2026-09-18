@@ -81,7 +81,7 @@
             max-width: 60%;  /* Keeps it from hitting the edges of the phone screen */
             height: auto;    /* Keeps the shape perfectly proportional */
             transform: translateY(120px);
-            transition: all 1.2 ease-out;
+            transition: all 1.2s ease-out;
         }
         .hero-title-img.active{
              opacity: 1;
