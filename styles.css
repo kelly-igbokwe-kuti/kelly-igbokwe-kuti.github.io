@@ -16,9 +16,12 @@
         .scroll-container{
              width: 100%;
              height: 100vh;
-             overflow-y: scroll;
-             scroll-snap-type: y mandatory;
-             scroll-behavior: smooth;
+             overflow: hidden;
+        }
+        .scroll-track{
+             width: 100%;
+             height: 100%;
+             transition: transform 1.2s cubic-bezier(0.25, 1, 0.5, 1);
         }
 
         .page{
