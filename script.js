@@ -8,8 +8,9 @@ window.addEventListener('DOMContentLoaded', () => {
   let isAnimating = false;
   const scrollThreshold = 50;
   window.addEventListener('wheel', (event) => {
+    if (Math.abs(event.deltaY) < scrollThreshold) return;
     if (isAnimating) return;
-    if (Math.abs (event.deltaY) < scrollThreshold === 0) {
+    if (event.deltaY > 0 && currentPage === 0) {
       currentPage = 1;
       isAnimating = true;
       track.style.transform = 'translateY(-100vh)';
