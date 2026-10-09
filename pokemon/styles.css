@@ -48,6 +48,7 @@ img {
     border-radius: 20px;
     display: inline-block;
     margin: 10px auto;
+    margin-inline: auto;
 }
 
 p {
