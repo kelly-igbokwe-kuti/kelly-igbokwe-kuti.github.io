@@ -13,11 +13,11 @@
 }
 
 .achtergrond-geel {
-    background-color: rgba(255,255,0,0.3);
+    background-color: rgba(255,255,0,0.5);
 }
 
 .achtergrond-groen {
-    background-color: rgba(0,255,0,0.3); /* Green background for Bulbasaur */
+    background-color: rgba(0,255,0,0.5); 
 }
 
 h1 {
