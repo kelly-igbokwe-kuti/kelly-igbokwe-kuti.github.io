@@ -1,1 +1,54 @@
+* {
+    font-family: verdana;
+}
 
+.pokemonkaart {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    float: left;
+}
+
+.achtergrond-geel {
+    background-color: #ffe066; /* Yellow background for Pikachu */
+}
+
+.achtergrond-groen {
+    background-color: #a3e4d7; /* Green background for Bulbasaur */
+}
+
+h1 {
+    font-size: 24px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+h4 {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+img {
+    width: 215px;
+    display: block;
+    margin: 0 auto;
+}
+
+.type1 {
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 10px auto;
+}
+
+p {
+    text-align: center;
+}
