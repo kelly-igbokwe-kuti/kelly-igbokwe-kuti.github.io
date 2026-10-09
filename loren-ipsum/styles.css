@@ -1,1 +1,48 @@
+/* Base page settings to control width and spacing */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    color: #333333;
+    background-color: #ffffff;
+    margin: 40px;
+}
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Bullet 1: <h1> with fuchsia background, 5px padding, and sans-serif font */
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ff00ff; /* Fuchsia */
+    color: #000000;
+    padding: 5px;
+    font-size: 2rem;
+    margin-bottom: 25px;
+    text-transform: lowercase; /* Matches the lowercase style in the image */
+}
+
+/* Standard paragraph spacing */
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Bullet 2: Thin fuchsia top border, 10px text distance, 50px indent, Times font */
+.bordered-paragraph {
+    font-family: 'Times New Roman', Times, serif;
+    border-top: 1px solid #ff00ff; /* Thin fuchsia border */
+    padding-top: 10px;             /* 10px spacing from border to text */
+    text-indent: 50px;             /* First line indented by 50px */
+}
+
+/* Bullet 3: Last container element with a rounded border of 25px and 15px text distance */
+.social-icons {
+    border: 1px solid #333333;
+    border-radius: 25px;           /* 25px rounded corners */
+    padding: 15px;                 /* 15px distance between icons and border */
+    display: inline-flex;          /* Wraps snugly around the icons */
+    gap: 12px;                     /* Spacing between the individual icons */
+    font-size: 1.2rem;
+}
