@@ -37,7 +37,6 @@ img {
     width: 215px;
     display: block;
     margin: 0 auto;
-    align: center;
 }
 
 .type1 {
@@ -48,8 +47,9 @@ img {
     border-radius: 20px;
     display: inline-block;
     margin: 10px auto;
+    text-align: center;
 }
 
-alignment {
+p {
     text-align: center;
 }
