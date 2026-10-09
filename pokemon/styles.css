@@ -13,11 +13,11 @@
 }
 
 .achtergrond-geel {
-    background-color: rgba(255,255,0,0.5);
+    background-color: rgba(255, 255, 198, 1);
 }
 
 .achtergrond-groen {
-    background-color: rgba(0,255,0,0.5); 
+    background-color: rgba(202, 255, 196, 1); 
 }
 
 h1 {
@@ -48,9 +48,8 @@ img {
     border-radius: 20px;
     display: inline-block;
     margin: 10px auto;
-    margin-inline: auto;
 }
 
-p {
+alignment {
     text-align: center;
 }
