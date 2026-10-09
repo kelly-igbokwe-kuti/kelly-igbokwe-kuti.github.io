@@ -51,6 +51,16 @@ img {
     width: 100px
 }
 
+.type2 {
+    font-weight: bold;
+    color: black;
+    background-color: green;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 10px auto;
+    width: 100px
+}
+
 p {
     /* text-align: center; */ 
 }
