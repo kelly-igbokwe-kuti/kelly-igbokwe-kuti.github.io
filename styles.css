@@ -79,12 +79,13 @@
         }
         .hero-title-img {
             max-width: 60%;  /* Keeps it from hitting the edges of the phone screen */
-            height: auto;    /* Keeps the shape perfectly proportional */
+            height: auto; /* Keeps the shape perfectly proportional */
+            opacity: 0;
             transform: translateY(7.813rem);
-            transition: all 1.2s ease-out;
+            transition: opacity 1.2s ease-out, transform 1.2s cubic-bezier(0.25, 1, 0.5, 1); 
         }
         .hero-title-img.active{
-             opacity: 1;
+             opacity: 1 !important;
              transform: translateY(7.5rem) !important;
         }
 /* This applies only to computers and larger screens */
