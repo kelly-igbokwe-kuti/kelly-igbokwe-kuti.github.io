@@ -84,5 +84,8 @@ h2 {
 }
 
 p {
-    text-align: center;
+    text-align: left;
+}
+.balk {
+text-align: center;
 }
