@@ -6,7 +6,7 @@ a:any-link {
 	color: black;
 }
 body {
-	max-width: 980px;
+	max-width: device-width;
 	margin-left: auto;
 	margin-right: auto;
 }
