@@ -51,13 +51,15 @@ body#background {
 h1 {
     font-size: 24px;
     margin: 5px;
+	font-weight: bold;
     /* text-align: center; */
 }
 
-h4 {
+h2 {
     font-size: 14px;
     color: black;
     margin: 0 0 10px 0;
+	font-weight: bold;
     /* text-align: center; */
 }
 
