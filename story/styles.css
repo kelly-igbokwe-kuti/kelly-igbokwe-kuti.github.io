@@ -18,3 +18,12 @@ body#background {
 #banner {
 	width: 100%;
 }
+.rechthoek{
+  width: 100px;
+  height: 20px;
+  border: 0px solid black;
+}
+
+.rood{
+  background-color: red;
+}
