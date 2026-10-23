@@ -27,3 +27,64 @@ body#background {
 .rood{
   background-color: red;
 }
+
+.pokemonkaart {
+    border: 0px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    float: left;
+}
+
+.pokemonkaart * {
+    text-align: center;
+}
+.achtergrond-geel {
+    background-color: rgba(255, 255, 198, 1);
+}
+
+.achtergrond-groen {
+    background-color: rgba(202, 255, 196, 1); 
+}
+
+h1 {
+    font-size: 24px;
+    margin: 5px;
+    /* text-align: center; */
+}
+
+h4 {
+    font-size: 14px;
+    color: black;
+    margin: 0 0 10px 0;
+    /* text-align: center; */
+}
+
+img {
+    width: 215px;
+}
+
+.type1 {
+    font-weight: bold;
+    color: black;
+    background-color: yellow;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 10px auto;
+    width: 100px
+}
+
+.type2 {
+    font-weight: bold;
+    color: black;
+    background-color: green;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 10px auto;
+    width: 100px
+}
+
+p {
+    text-align: center;
+}
