@@ -42,7 +42,7 @@ body#background {
     text-align: center;
 }
 .achtergrond-geel {
-    background-color: rgba(247,218,92, 1);
+    background-color: rgb(247,218,92);
 }
 
 .achtergrond-groen {
