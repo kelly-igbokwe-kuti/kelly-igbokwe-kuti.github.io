@@ -86,9 +86,11 @@ h2 {
 p {
     text-align: left;
 }
+
 .balk {
-text-align: center;
+	text-align: center;
 }
+
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
