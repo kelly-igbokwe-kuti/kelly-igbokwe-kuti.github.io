@@ -44,6 +44,8 @@ body#background {
 }
 .achtergrond-geel {
     background-color: rgb(247,218,92);
+	height: 30px;
+	padding: 20px;
 }
 
 .achtergrond-groen {
